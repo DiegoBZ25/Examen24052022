@@ -15,10 +15,10 @@ namespace Examen1DAWN
     {
         static void main()
         {
-            cafetera mi_cafetera_ejemplo = new cafetera("EspressoBarista", "Procoffee", 0.6, 7);
+
+            Cafetera mi_cafetera_ejemplo = new Cafetera("EspressoBarista", "Procoffee", 0.6, 7);
 
             Console.WriteLine(mi_cafetera_ejemplo.CantidaAgua);
-            Console.WriteLine(mi_cafetera_ejemplo.consumocapsulas(5));
             Console.WriteLine(mi_cafetera_ejemplo.TotalDeCapsulas);
             Console.WriteLine(mi_cafetera_ejemplo.ComprobarRealizacionCafe(5));
             Console.WriteLine(mi_cafetera_ejemplo.CantidaAgua);

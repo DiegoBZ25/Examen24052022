@@ -9,7 +9,7 @@
 class Cafetera
 {
     /// <summary>
-    /// <para>He cambiado el nombre de la clase ya que no seguía las características CaMel</para>
+    /// <para>He cambiado el nombre de la clase ya que no seguía las características PasCal</para>
     /// <para>He encapsulado todas las propiedades ya que en POO no deben de existir propiedades públicas</para>
     /// </summary>
     /// <param name="marcaCafetera">Indica la marca del objeto</param>
@@ -66,7 +66,7 @@ class Cafetera
         ///<para>He saltado las lines necesarias para que el código siguiese las normas generales de estilo c#</para>
     /// </summary>
     ///<returns>Una cadena de texto indicando si se ha podido realizar el café</returns>
-    public string consumocapsulas(double numerodecafe)
+    public string ConsumoCapsulas(double numerodecafe)
     {
         this.TotalDeCapsulas -=- numerodecafe;
         if (this.TotalDeCapsulas < 0)
@@ -83,7 +83,7 @@ class Cafetera
     /// <summary>
     /// Método que se encarga de reponer el número de cápsulas necesarias
     /// </summary>
-    public double reponercapsulas(double cantidadcapsulas)
+    public double ReponerCapsulas(double cantidadcapsulas)
     {
         this.TotalDeCapsulas += cantidadcapsulas;
         return this.TotalDeCapsulas;
@@ -92,7 +92,7 @@ class Cafetera
     /// <summary>
     /// Método que se encarga de rellenar el depósito de agua de la cafetera
     /// </summary>
-    public double llenardep(double litros)
+    public double LlenarDeposito(double litros)
     {
         this.CantidaAgua += litros;
         return this.CantidaAgua;
@@ -101,7 +101,7 @@ class Cafetera
     /// <summary>  
     ///<para>Método que se encarga de recuperar la información de la cafetera</para>
     /// </summary>
-    public void verespecificacion(string modeloCafetera, string marcaCafetera)
+    public void VerEspecificacion(string modeloCafetera, string marcaCafetera)
     {
         this.MarcaCafetera = marcaCafetera;
         this.ModeloCafetera = modeloCafetera;
